@@ -1,0 +1,655 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3586000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefenitions.AddToCart.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3200000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3166000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3142000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T07:49:23.989Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2361000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Add selected product to cart",
+        "description": "",
+        "id": "i-want-to-use-this-feature-to-verify-add-to-cart-feature;add-selected-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 704000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the Product name as \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefenitions.AddToCart.i_click_on_the_Product_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2191000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the Add to cart Button",
+            "match": {
+              "location": "stepdefenitions.AddToCart.i_click_on_the_Add_to_cart_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2115000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Shopping cart link",
+            "match": {
+              "location": "stepdefenitions.AddToCart.i_click_on_Shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2052000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the item on cart page",
+            "match": {
+              "location": "stepdefenitions.AddToCart.i_verify_the_item_on_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      }
+    ],
+    "name": "I want to use this feature to verify Add to cart feature",
+    "description": "",
+    "id": "i-want-to-use-this-feature-to-verify-add-to-cart-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddToCart.feature",
+    "tags": [
+      {
+        "name": "@AddToCart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3704000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to launch application",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_want_to_launch_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T07:49:46.789Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1561000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Launch saucedemo application",
+        "description": "",
+        "id": "i-want-to-use-this-file-to-verify-login-saucedemo-application;launch-saucedemo-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1151000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate that login page is loaded",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.validate_that_login_page_is_loaded()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3583000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to launch application",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_want_to_launch_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T07:49:53.223Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1533000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate the login success scenario",
+        "description": "",
+        "id": "i-want-to-use-this-file-to-verify-login-saucedemo-application;validate-the-login-success-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3125000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3178000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3128000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should land on the home page",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_should_land_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3634000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to launch application",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_want_to_launch_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T07:50:08.959Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1442000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validate the login failure scenario",
+        "description": "",
+        "id": "i-want-to-use-this-file-to-verify-login-saucedemo-application;validate-the-login-failure-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1180000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3135000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter username as \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3118000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password as \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3079000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should get error message as \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_should_get_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3736000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to launch application",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_want_to_launch_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T07:50:24.642Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1477000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validate the login failure scenario",
+        "description": "",
+        "id": "i-want-to-use-this-file-to-verify-login-saucedemo-application;validate-the-login-failure-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefenitions.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3141000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter username as \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3119000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter password as \"Abcd@12a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abcd@12a\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login button",
+            "match": {
+              "location": "stepdefenitions.LoginStepDefs.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should get error message as \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefenitions.LoginStepDefs.i_should_get_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Browser"
+          }
+        ]
+      }
+    ],
+    "name": "I want to use this file to verify login SauceDemo Application",
+    "description": "",
+    "id": "i-want-to-use-this-file-to-verify-login-saucedemo-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SauceDemoLogin.feature",
+    "tags": [
+      {
+        "name": "@Browser",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
